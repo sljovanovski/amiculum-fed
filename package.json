@@ -1,0 +1,29 @@
+{
+  "name": "amiculum-front-end",
+  "author": "Slobodan Jovanovski",
+  "version": "1.0.0",
+  "description": "Amiculum Front End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.production.config.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "image-webpack-loader": "^1.6.3",
+    "imagemin": "^4.0.0",
+    "lodash": "^4.6.1",
+    "node-sass": "^3.4.2",
+    "postcss-loader": "^0.8.1",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1",
+    "compression-webpack-plugin": "^1.1.11"
+  }
+}
