@@ -5,12 +5,332 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 </head>
 <body>
-Test
-<link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css">
-<script src="/vendor/jquery/dist/jquery.min.js"></script>
-<script src="/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="/src/styles.css">
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo">
+      A
+    </div>
+    <div class="brand-name">
+      Brand Name
+    </div>
+  </div>
+  <!-- END HEADER -->
+
+  <!-- CAROUSEL -->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="slide-item">
+          Slide 1
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="slide-item">
+          Slide 2
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="slide-item">
+          Slide 3
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+  </div>
+  <!-- END CAROUSEL -->
+
+  <!-- PROJECT -->
+  <div class="section-project">
+    <div class="title">
+      Project
+    </div>
+    <div class="small-title">
+      Test for responsive design
+    </div>
+    <div class="description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus
+      dignissim nisi vel mollis porta. Fusce vel ultricies purus. In consectetur nibh odio, mattis varius purus faucibus
+      in.
+    </div>
+    <button class="btn-read-more">
+      Read More
+    </button>
+  </div>
+  <!-- END PROJECT -->
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="img-modal">
+        <div class="image">
+          Image Modal
+          <div class="show-modal" data-title="Image Modal">
+            +
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION MODAL -->
+  <div class="section-modal">
+    <div class="title">
+      Modal
+    </div>
+    <div class="description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus
+      dignissim nisi vel mollis porta.
+    </div>
+  </div>
+  <!-- END SECTION MODAL -->
+
+  <!-- IMAGES -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="img-modal">
+        <div class="image">
+          First Image Title
+          <div class="show-modal" data-title="First Image Title">
+            +
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="img-modal">
+        <div class="image mt-30">
+          Seconds Image Title
+          <div class="show-modal" data-title="Seconds Image Title">
+            +
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="img-modal">
+        <div class="image mt-30">
+          Third Image Title
+          <div class="show-modal" data-title="Third Image Title">
+            +
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END IMAGES -->
+</div>
+
+<!-- BREAKOUT -->
+<div class="section-breakout">
+  <div class="container">
+    <div class="content">
+      <div class="title">
+        Breakout area
+      </div>
+      <div class="description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus
+        dignissim nisi vel mollis
+      </div>
+    </div>
+    <div class="image"></div>
+  </div>
+</div>
+<!-- END BREAKOUT -->
+
+<div class="text-center large-title">
+  More layouts
+</div>
+
+<div class="container">
+  <!-- IMAGES -->
+  <div class="img-modal">
+    <div class="image">
+      Forth Image Title
+      <div class="show-modal" data-title="Forth Image TItle">
+        +
+      </div>
+    </div>
+  </div>
+  <!-- END IMAGES -->
+
+  <!-- SECTION MODAL -->
+  <div class="section-modal">
+    <div class="title">
+      Modal
+    </div>
+    <div class="description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus
+      dignissim nisi vel mollis porta.
+    </div>
+  </div>
+  <!-- END SECTION MODAL -->
+
+  <!-- IMAGES WITH CAPTIONS-->
+  <div class="row mt-30">
+    <div class="col-md-2">
+      <div class="caption">
+        <label>image Caption</label>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam</span>
+      </div>
+    </div>
+    <div class="col-md-10">
+      <div class="img-modal">
+        <div class="image">
+          Fifth Image Title
+          <div class="show-modal" data-title="Fifth Image Title">
+            +
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <div class="caption mt-30">
+        <label>image Caption</label>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam</span>
+      </div>
+      <div class="caption mt-30">
+        <label>image Caption</label>
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam</span>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="img-modal">
+        <div class="image mt-30">
+          Sixth Image Title
+          <div class="show-modal" data-title="Sixth Image Title">
+            +
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="img-modal">
+        <div class="image mt-30">
+          Seventh Image Title
+          <div class="show-modal" data-title="Seventh Image Title">
+            +
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END IMAGES WITH CAPTIONS-->
+</div>
+
+<div class="divider"></div>
+
+<!-- TOPICS -->
+<div class="container topics">
+  <div class="section-topics-title">
+    Hot topics
+  </div>
+  <div class="section-topics-description">
+    Lorem ipsum dolor sit amet
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="topic">
+        <div class="image"></div>
+        <div class="topic-title">
+          Topic title
+        </div>
+        <div class="topic-description">
+          Lorem ipsum dolor sit amet
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="topic">
+        <div class="image"></div>
+        <div class="topic-title">
+          Topic title
+        </div>
+        <div class="topic-description">
+          Lorem ipsum dolor sit amet
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="topic">
+        <div class="image"></div>
+        <div class="topic-title">
+          Topic title
+        </div>
+        <div class="topic-description">
+          Lorem ipsum dolor sit amet
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="topic">
+        <div class="image"></div>
+        <div class="topic-title">
+          Topic title
+        </div>
+        <div class="topic-description">
+          Lorem ipsum dolor sit amet
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END TOPICS -->
+
+<div class="copyright">
+  (c) AMICULUM digital 2018
+</div>
+
+<!-- MODAL -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="custom-modal">
+        <div class="close-modal" data-dismiss="modal">
+          x
+        </div>
+        <h5 class="modal-title" id="modalTitle"></h5>
+        <div class="modal-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui
+          et congue. Vivamus
+          dignissim nisi vel mollis porta.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END MODAL -->
+
+<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="static/styles.css">
 <script>
+
+  // Set the modal title to be the image title and show the modal
+  $(".show-modal").click(function (e) {
+    $("#modalTitle").text(e.target.dataset.title)
+    $("#exampleModal").modal('show')
+  })
+
   function downloadJSAndCSSAtOnload() {
     var element = document.createElement('script');
     element.src = 'static/bundle.js';

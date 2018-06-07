@@ -1,0 +1,46 @@
+.section-project {
+  display: grid;
+  grid-row-gap: 16px;
+  margin: 64px 0;
+  text-align: center;
+  > .title {
+    font-size: 80px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    @media all and (max-width: 960px) {
+      font-size: 64px;
+    }
+  }
+  > .small-title {
+    color: #acacac;
+    font-size: 13px;
+  }
+  > .description {
+    font-size: 24px;
+    color: #acacac;
+    @media all and (max-width: 960px) {
+      font-size: 20px;
+    }
+  }
+  > .btn-read-more {
+    width: 216px;
+    height: 65px;
+    background: #1a1a1a;
+    border: 2px solid #acacac;
+    color: #acacac;
+    align-self: center;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+      transition: 0.2s;
+      outline: none;
+      box-shadow: inset 0 0 0 99999px rgba(0, 0, 0, 0.1);
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.section-modal {
+  text-align: center;
+  margin: 64px auto;
+  max-width: 540px;
+  > .title {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 3px;
+  }
+  > .description {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #9e9e9e;
+  }
+}

@@ -1,0 +1,35 @@
+.topics {
+  margin: 64px auto;
+  .section-topics-title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .section-topics-description {
+    font-size: 18px;
+    color: #9e9e9e;
+    text-align: center;
+  }
+  .topic {
+    text-align: center;
+    margin-top: 48px;
+    > .image {
+      width: 100%;
+      height: 150px;
+      background: #2e2e2e;
+    }
+    > .topic-title {
+      margin-top: 16px;
+      font-size: 14px;
+      color: white;
+      text-transform: uppercase;
+    }
+    > .topic-description {
+      margin-top: 7px;
+      font-size: 13px;
+      color: #9e9e9e;
+    }
+  }
+}

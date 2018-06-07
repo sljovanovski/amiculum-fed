@@ -4,6 +4,17 @@ const autoprefixer = require('autoprefixer');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin')
 
+const AUTOPREFIXER_BROWSERS = [
+  'Android 2.3',
+  'Android >= 4',
+  'Chrome >= 35',
+  'Firefox >= 31',
+  'Explorer >= 7',
+  'iOS >= 7',
+  'Opera >= 12',
+  'Safari >= 7.1',
+];
+
 module.exports = {
   entry: path.resolve(__dirname, 'src/index.js'),
   output: {
@@ -25,7 +36,7 @@ module.exports = {
     ],
   },
   postcss: [
-    autoprefixer,
+    autoprefixer({ browsers: AUTOPREFIXER_BROWSERS }),
   ],
   plugins: [
     new ExtractTextPlugin('styles.css'),
